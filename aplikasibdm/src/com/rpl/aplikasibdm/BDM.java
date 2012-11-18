@@ -1,4 +1,6 @@
-package com.example.aplikasibdm;
+package com.rpl.aplikasibdm;
+
+import com.rpl.aplikasibdm.R;
 
 import android.os.Bundle;
 import android.app.Activity;
