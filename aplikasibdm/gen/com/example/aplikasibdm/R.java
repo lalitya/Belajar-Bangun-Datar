@@ -38,10 +38,16 @@ public final class R {
         public static final int splash_screen=0x7f020018;
     }
     public static final class id {
-        public static final int menu_settings=0x7f070000;
+        public static final int button_about=0x7f070003;
+        public static final int button_help=0x7f070001;
+        public static final int button_keluar=0x7f070004;
+        public static final int button_kuis=0x7f070002;
+        public static final int button_materi=0x7f070000;
+        public static final int menu_settings=0x7f070005;
     }
     public static final class layout {
         public static final int activity_bdm=0x7f030000;
+        public static final int splash=0x7f030001;
     }
     public static final class menu {
         public static final int activity_bdm=0x7f060000;

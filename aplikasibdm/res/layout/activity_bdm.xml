@@ -2,13 +2,48 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".BDM" >
+    android:background="@drawable/background" >
 
-    <TextView
+    <ImageButton
+        android:id="@+id/button_materi"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_centerVertical="true"
-        android:text="@string/hello_world" />
+        android:layout_marginTop="133dp"
+        android:background="@drawable/button_materi" />
+
+    <ImageButton
+        android:id="@+id/button_help"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button_materi"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/button_help" />
+
+    <ImageButton
+        android:id="@+id/button_kuis"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button_help"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/button_kuis" />
+
+    <ImageButton
+        android:id="@+id/button_about"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button_kuis"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/button_about" />
+
+    <ImageButton
+        android:id="@+id/button_keluar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button_about"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/button_keluar"
+        android:onClick="keluar" />
 
 </RelativeLayout>
