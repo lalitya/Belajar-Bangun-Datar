@@ -15,16 +15,42 @@
             android:layout_height="44dp"
             android:layout_gravity="top"
             android:text="Nama Bangun"
-            android:textAppearance="?android:attr/textAppearanceMedium"
             android:textSize="20dp" />
 
-"
 
         <ImageView
             android:id="@+id/gambarBangun"
             android:layout_width="320dp"
             android:layout_height="wrap_content"
             android:src="@drawable/materi_hijau" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Deskripsi"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <TextView
+            android:id="@+id/lblDeskripsi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Medium Text"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sifat"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <TextView
+            android:id="@+id/lblSifat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Medium Text"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
 
     </LinearLayout>
     

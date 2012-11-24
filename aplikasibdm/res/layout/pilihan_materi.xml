@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" 
+        android:orientation="vertical"
+        >
+
+		<FrameLayout
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content" >
+		     <ImageButton
+            android:id="@+id/button_persegi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Persegi"
+            android:background="@drawable/button_kosong"
+            android:onClick="toPersegi" 
+            />
+		    <TextView android:layout_width="wrap_content" 
+		        android:layout_height="wrap_content" 
+		        android:layout_gravity="center" 
+		        android:clickable="false" 
+		        android:textSize="30dp"    
+		        android:text="Persegi"></TextView>    
+		</FrameLayout>
+		
+		<FrameLayout
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content" >
+		     <ImageButton
+            android:id="@+id/button_persegi_panjang"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"  
+            android:text="Persegi"
+            android:onClick="toPersegiPanjang"
+            android:background="@drawable/button_kosong" 
+            />
+		    <TextView android:layout_width="wrap_content" 
+		        android:layout_height="wrap_content" 
+		        android:layout_gravity="center" 
+		        android:textSize="30dp"    
+		        android:clickable="false"  
+		        android:text="Persegi Panjang"></TextView>    
+		</FrameLayout>
+				
+		<FrameLayout
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content" >
+		     <ImageButton
+            android:id="@+id/button_segitiga_samakaki"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Persegi"
+            android:onClick="toSegitigaSamaKaki"
+            android:background="@drawable/button_kosong" 
+            />
+		    <TextView android:layout_width="wrap_content" 
+		        android:layout_height="wrap_content" 
+		        android:layout_gravity="center" 
+		        android:textSize="30dp"    
+		        android:clickable="false" 
+		        android:text="Segitiga Sama Kaki"></TextView>    
+		</FrameLayout>
+		
+		<FrameLayout
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content" >
+		     <ImageButton
+            android:id="@+id/button_segitiga_samasisi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Persegi"
+            android:onClick="toSegitigaSamaSisi"
+            android:background="@drawable/button_kosong" 
+            />
+		    <TextView android:layout_width="wrap_content" 
+		        android:layout_height="wrap_content" 
+		        android:layout_gravity="center" 
+		        android:textSize="30dp"    
+		        android:clickable="false" 
+		        android:text="Segitiga Sama Sisi"></TextView>    
+		</FrameLayout>
+		
+		<FrameLayout
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content" >
+		     <ImageButton
+            android:id="@+id/button_segitiga_sikusiku"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Persegi"
+            android:onClick="toSegitigaSikusiku"
+            android:background="@drawable/button_kosong" 
+            />
+		    <TextView android:layout_width="wrap_content" 
+		        android:layout_height="wrap_content" 
+		        android:layout_gravity="center" 
+		        android:textSize="30dp"    
+		        android:clickable="false" 
+		        android:text="Segitiga Siku-Siku"></TextView>    
+		</FrameLayout>
+		
+		<FrameLayout
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content" >
+		     <ImageButton
+            android:id="@+id/button_belahKetupat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Persegi"
+            android:onClick="toBelahKetupat"
+            android:background="@drawable/button_kosong" 
+            />
+		    <TextView android:layout_width="wrap_content" 
+		        android:layout_height="wrap_content" 
+		        android:layout_gravity="center" 
+		        android:textSize="30dp"    
+		        android:clickable="false" 
+		        android:text="Belah Ketupat"></TextView>    
+		</FrameLayout>
+		
+		<FrameLayout
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content" >
+		     <ImageButton
+            android:id="@+id/button_trapesium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Persegi"
+            android:onClick="toTrapesium"
+            android:background="@drawable/button_kosong" 
+            />
+		    <TextView android:layout_width="wrap_content" 
+		        android:layout_height="wrap_content" 
+		        android:layout_gravity="center" 
+		        android:textSize="30dp"    
+		        android:clickable="false" 
+		        android:text="Trapesium"></TextView>    
+		</FrameLayout>
+		
+		<FrameLayout
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content" >
+		     <ImageButton
+            android:id="@+id/button_jajargenjang"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Persegi"
+            android:onClick="toJajarGenjang"
+            android:background="@drawable/button_kosong" 
+            />
+		    <TextView android:layout_width="wrap_content" 
+		        android:layout_height="wrap_content" 
+		        android:layout_gravity="center" 
+		        android:clickable="false" 
+		        android:textSize="30dp"    
+		        android:text="Jajar Genjang"></TextView>    
+		</FrameLayout>
+		
+		<FrameLayout
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content" >
+		     <ImageButton
+            android:id="@+id/button_layang_layang"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Persegi"
+            android:onClick="toLayanglayang"
+            android:background="@drawable/button_kosong" 
+            />
+		    <TextView android:layout_width="wrap_content" 
+		        android:layout_height="wrap_content" 
+		        android:layout_gravity="center" 
+		        android:textSize="30dp"    
+		        android:clickable="false" 
+		        android:text="Layang-layang"></TextView>    
+		</FrameLayout>
+		
+		<FrameLayout
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content" >
+		     <ImageButton
+            android:id="@+id/lingkaran"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Persegi"
+            android:onClick="toLingkaran"
+            android:background="@drawable/button_kosong" 
+            />
+		    <TextView android:layout_width="wrap_content" 
+		        android:layout_height="wrap_content" 
+		        android:layout_gravity="center" 
+		        android:textSize="30dp"    
+		        android:clickable="false" 
+		        android:text="Lingkaran"></TextView>    
+		</FrameLayout>
+      
+    </LinearLayout>
+    
+
+</ScrollView>
