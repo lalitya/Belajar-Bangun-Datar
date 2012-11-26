@@ -27,7 +27,7 @@ public class MainActivity extends Activity {
     
     public void toMateri(View v){
     	 Intent i = new Intent();
-    	 i.setClass(this, MateriActivity.class);
+    	 i.setClass(this, PilihanMateriActivity.class);
     	 startActivity(i);
     	 
     }
