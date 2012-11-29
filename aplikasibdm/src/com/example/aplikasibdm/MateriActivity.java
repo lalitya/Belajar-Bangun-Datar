@@ -382,6 +382,7 @@ public class MateriActivity extends Activity{
 				"L = Luas",
 				""
 		};
+		
 		lingkaran.setKeterangan(keteranganPersegiPanjang);
 	}
 	

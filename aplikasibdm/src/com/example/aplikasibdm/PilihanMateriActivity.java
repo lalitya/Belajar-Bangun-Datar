@@ -14,7 +14,7 @@ public class PilihanMateriActivity extends Activity{
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.pilihan_materi);
 	}
-
+ 
 	public void toPersegi(View v){
 		PilihanMateriActivity.idMateri = 1 ;
 		masukMateri();
