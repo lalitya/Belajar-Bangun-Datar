@@ -2,7 +2,7 @@ package com.example.aplikasibdm;
 
 public class Soal {
 	private String[] soal;
-	private String jawaban;
+	private String[] jawaban;
 	private String[] pilihan;
 	
 	public String[] getSoal() {
@@ -11,10 +11,10 @@ public class Soal {
 	public void setSoal(String[] soal) {
 		this.soal = soal;
 	}
-	public String getJawaban() {
+	public String[] getJawaban() {
 		return jawaban;
 	}
-	public void setJawaban(String jawaban) {
+	public void setJawaban(String[] jawaban) {
 		this.jawaban = jawaban;
 	}
 	public String[] getPilihan() {

@@ -115,7 +115,7 @@ public class MateriActivity extends Activity{
 	
 	public static void buatPersegi(){
 		persegi.setNama("Persegi");
-		persegi.setGambar(R.drawable.button_biru);
+		persegi.setGambar(R.drawable.persegi);
 		persegi.setMateri("Persegi adalah bangun datar dua dimensi yang dibentuk oleh empat buah rusuk  yang sama panjang dan memiliki empat buah sudut yang kesemuanya adalah sudut siku-siku. ");
 		String[] sifatPersegi= {
 				"1.	Memiliki empat ruas garis AB – DC – AD dan BC ",
@@ -143,7 +143,7 @@ public class MateriActivity extends Activity{
 	
 	public static void buatPersegiPanjang(){
 		persegiPanjang.setNama("Persegi Panjang");
-		persegiPanjang.setGambar(R.drawable.button_biru);
+		persegiPanjang.setGambar(R.drawable.persegi_panjang);
 		persegiPanjang.setMateri("Bangun datar dua dimensi yang dibentuk oleh dua pasang rusuk yang masing-masing sama panjang dan sejajar dengan pasangannya, dan memiliki empat buah sudut yang kesemuanya adalah sudut siku-siku.");
 		String[] sifatPersegi= {
 				"1.	Memiliki empat ruas garis AB – DC – AD dan BC",
@@ -170,7 +170,7 @@ public class MateriActivity extends Activity{
 	}
 	public static void buatSegitigaSamaKaki(){
 		segitigaSamaKaki.setNama("Segitiga Sama Kaki");
-		segitigaSamaKaki.setGambar(R.drawable.button_biru);
+		segitigaSamaKaki.setGambar(R.drawable.segitiga_sama_kaki);
 		segitigaSamaKaki.setMateri("Segitiga sama kaki adalah bangun datar yang terdiri dari tiga garis yang dua diantaranya memiliki panjang yang sama (disebut sebagai kaki segitiga)");
 		String[] sifatPersegi= {
 				"1.	Memiliki tiga ruas garis AB – BC dan CA",
@@ -198,7 +198,7 @@ public class MateriActivity extends Activity{
 
 	public static void buatSegitigaSamaSisi(){
 		segitigaSamaSisi.setNama("Segitiga Sama Sisi");
-		segitigaSamaSisi.setGambar(R.drawable.button_biru);
+		segitigaSamaSisi.setGambar(R.drawable.segitiga_sama_sisi);
 		segitigaSamaSisi.setMateri("Segitiga sama sisi adalah bangun datar yang terdiri dari tiga garis yang semua garis ukurannya sama panjang");
 		String[] sifatPersegi= {
 				"1.	Memiliki tiga ruas garis AB – BC dan CA",
@@ -224,8 +224,8 @@ public class MateriActivity extends Activity{
 	}
 	
 	public static void buatSegitigaSikusiku(){
-		segitigaSikusiku.setNama("Segitiga Sama Sisi");
-		segitigaSikusiku.setGambar(R.drawable.button_biru);
+		segitigaSikusiku.setNama("Segitiga Siku-siku");
+		segitigaSikusiku.setGambar(R.drawable.segitiga_siku_siku);
 		segitigaSikusiku.setMateri("Segitiga sikusiku adalah bangun datar yang terdiri dari tiga garis yang salah satu sudutnya membentuk sudut 90 derajat");
 		String[] sifatPersegi= {
 				"1.	Memiliki tiga ruas garis AB – BC dan CA",
@@ -252,7 +252,7 @@ public class MateriActivity extends Activity{
 	
 	public static void buatBelahKetupat(){
 		belahKetupat.setNama("Belah Ketupat");
-		belahKetupat.setGambar(R.drawable.button_biru);
+		belahKetupat.setGambar(R.drawable.belah_ketupat);
 		belahKetupat.setMateri("Belah Ketupat adalah bangun datar dua dimensi yang dibentuk oleh empat buah rusuk yang sama panjang, dan memiliki dua pasang sudut bukan siku-siku yang masing-masing sama besar dengan sudut di hadapannya");
 		String[] sifatPersegi= {
 				"1.	Memiliki empat ruas garis AB – BC – CD dan DA",
@@ -279,7 +279,7 @@ public class MateriActivity extends Activity{
 	
 	public static void buatTrapesium(){
 		trapesium.setNama("Trapesium");
-		trapesium.setGambar(R.drawable.button_biru);
+		trapesium.setGambar(R.drawable.trapesium);
 		trapesium.setMateri("Trapesium adalah bangun datar dua dimensi yang dibentuk oleh empat buah rusuk yang dua diantaranya saling sejajar namun tidak sama panjang.");
 		String[] sifatPersegi= {
 				"1.	Memiliki empat ruas garis AB – BC – CD dan DA",
@@ -306,7 +306,7 @@ public class MateriActivity extends Activity{
 	
 	public static void buatJajarGenjang(){
 		jajarGenjang.setNama("Jajar Genjang");
-		jajarGenjang.setGambar(R.drawable.button_biru);
+		jajarGenjang.setGambar(R.drawable.jajar_genjang);
 		jajarGenjang.setMateri("Jajar Genjang adalah bangun datar dua dimensi yang dibentuk oleh dua pasang rusuk yang masing-masing sama panjang dan sejajar dengan pasangannya, dan memiliki dua pasang sudut bukan siku-siku yang masing-masing sama besar dengan sudut di hadapannya.");
 		String[] sifatPersegi= {
 				"1.	Memiliki empat ruas garis AB – BC – CD dan DA",
@@ -332,8 +332,8 @@ public class MateriActivity extends Activity{
 	}
 	
 	public static void buatLayangLayang(){
-		layangLayang.setNama("Trapesium");
-		layangLayang.setGambar(R.drawable.button_biru);
+		layangLayang.setNama("Layang-layang");
+		layangLayang.setGambar(R.drawable.layang_layang);
 		layangLayang.setMateri("Layang-layang adalah bangun datar dua dimensi yang dibentuk oleh dua pasang rusuk yang masing-masing pasangannya sama panjang dan saling membentuk sudut.");
 		String[] sifatPersegi= {
 				"1.	Memiliki empat ruas garis AB – BC – CD dan DA",
@@ -360,7 +360,7 @@ public class MateriActivity extends Activity{
 	
 	public static void buatLingkaran(){
 		lingkaran.setNama("Lingkaran");
-		lingkaran.setGambar(R.drawable.button_biru);
+		lingkaran.setGambar(R.drawable.lingkaran);
 		lingkaran.setMateri("lingkaran adalah himpunan semua titik pada bidang dalam jarak tertentu, yang disebut jari-jari, dari suatu titik tertentu, yang disebut pusat");
 		String[] sifatPersegi= {
 				"1.	Memiliki jari-jari",
