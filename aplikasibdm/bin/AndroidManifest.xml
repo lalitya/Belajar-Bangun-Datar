@@ -26,6 +26,13 @@
         <activity android:name="MainActivity"></activity>
         <activity android:name="PilihanMateriActivity"></activity>
         <activity android:name="MateriActivity"></activity>
+        <activity android:name="AboutActivity"></activity>
+        <activity android:name="HelpActivity"></activity>
+        <activity android:name="PilihanKuisActivity"></activity>
+        <activity android:name="KuisActivity"></activity>
+        <activity android:name="HasilActivity"></activity>
+        <activity android:name="KuisUtamaActivity"></activity>
+        <activity android:name="TampilanNilaiActivity"></activity>
 
     </application>
 

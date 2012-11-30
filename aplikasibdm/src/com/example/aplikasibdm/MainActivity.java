@@ -32,4 +32,23 @@ public class MainActivity extends Activity {
     	 
     }
     
+    public void toKuis(View v){
+     	 Intent i = new Intent();
+    	 i.setClass(this, PilihanKuisActivity.class);
+    	 startActivity(i);
+    
+    }
+    
+    public void toHelp(View v){
+      	 Intent i = new Intent();
+    	 i.setClass(this, HelpActivity.class);
+    	 startActivity(i);
+    }
+    
+    public void toAbout(View v){
+      	 Intent i = new Intent();
+    	 i.setClass(this, AboutActivity.class);
+    	 startActivity(i);
+    }
+    
 }

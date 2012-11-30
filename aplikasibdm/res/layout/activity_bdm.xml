@@ -1,51 +1,59 @@
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:background="@drawable/background" >
-
-    <ImageButton
-        android:id="@+id/button_materi"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="133dp"
-        android:background="@drawable/button_materi" 
-        android:onClick="toMateri"
-        />
-
-    <ImageButton
-        android:id="@+id/button_help"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/button_materi"
-        android:layout_centerHorizontal="true"
-        android:background="@drawable/button_help" />
-
-    <ImageButton
-        android:id="@+id/button_kuis"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/button_help"
-        android:layout_centerHorizontal="true"
-        android:background="@drawable/button_kuis" />
-
-    <ImageButton
-        android:id="@+id/button_about"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/button_kuis"
-        android:layout_centerHorizontal="true"
-        android:background="@drawable/button_about" />
-
-    <ImageButton
-        android:id="@+id/button_keluar"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/button_about"
-        android:layout_centerHorizontal="true"
-        android:background="@drawable/button_keluar"
-        android:onClick="keluar" />
-
-</RelativeLayout>
+    android:layout_height="match_parent" 
+    android:background="@drawable/background2" 
+    >
+    	<RelativeLayout 
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:background="@drawable/background" >
+	
+	    <ImageButton
+	        android:id="@+id/button_materi"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentTop="true"
+	        android:layout_centerHorizontal="true"
+	        android:layout_marginTop="133dp"
+	        android:background="@drawable/button_materi" 
+	        android:onClick="toMateri"
+	        />
+	
+	    <ImageButton
+	        android:id="@+id/button_help"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_below="@+id/button_materi"
+	        android:layout_centerHorizontal="true"
+	        android:background="@drawable/button_help"
+	        android:onClick="toHelp" />
+	
+	    <ImageButton
+	        android:id="@+id/button_kuis"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_below="@+id/button_help"
+	        android:layout_centerHorizontal="true"
+	        android:background="@drawable/button_kuis" 
+	        android:onClick="toKuis"/>
+	
+	    <ImageButton
+	        android:id="@+id/button_about"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_below="@+id/button_kuis"
+	        android:layout_centerHorizontal="true"
+	        android:background="@drawable/button_about" 
+	        android:onClick="toAbout"/>
+	
+	    <ImageButton
+	        android:id="@+id/button_keluar"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_below="@+id/button_about"
+	        android:layout_centerHorizontal="true"
+	        android:background="@drawable/button_keluar"
+	        android:onClick="keluar" />
+	
+	</RelativeLayout>
+</ScrollView>
